@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.pokemon {
+  background-color: transparent;
+  color: white;
+  font-size: 40px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+}
+
+.cliqueaqui{
+  height: 100px;
+  width: 100%;
+}
+
+
+.titulo {
+  background-color: none;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.logo {
+  height: 190px;
+  width: auto;
+}
+
+.allthe {
+  height: 48px;
+  width: 100%;
+  background-color: none;
+  justify-content: center;
+  display: flex;
+}
+
+.tabela {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.pokemontable, th, td {
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+}
+
+table {
+  margin: 0 auto;
+  width: 1890px;
+  border: black;
+}
+
+.pokemontable {
+  background-color: white;
+  border: solid;
+  border-color: black;
+}
+
+.tbody2 {
+  background-color: #f2e8f8;
+  border-color: black;
+}
+
+.tbody1 {
+  background-color: white;
+  border: #ffffff;
+}
+
+th {
+  background-color: grey;
+}
+
+.sprites {
+  width: 36px;
+  height: 36px;
+}
+
+.spritesicon {
+  width: 28px;
+  height: 28px;
+}
+
+body {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP16kRBGxNVO-9SWssHOciuqG3ZV7rCrCuRR8UcfZmKn1mX7B66hfP6QI2l7waYVYjEUXIxrEhDG_iF8zKe1z2kBPgKVTPc5jBLYepZ2XE5JTy3Hx_vj4EKPtUtx1p9Ockb73yx-Dypio/s1600/unova.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  font-family: "Roboto", serif;
+
+}
+
+@media (max-width: 768px) {
+  .pokemon {
+    font-size: 20px;
+    border-radius: 40px;
+  }
+
+  .titulo {
+    height: 142;
+  }
+
+  .logo {
+    height: 60%;
+  }
+
+  .allthe {
+    height: 30px;
+  }
+
+  .tabela {
+    padding: 0.4em;
+  }
+
+  table {
+    width: 20px;
+  }
+
+  .pokemontable, th, td {
+    padding: 5px;
+  }
+}
+
