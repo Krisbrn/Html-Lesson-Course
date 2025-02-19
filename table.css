@@ -1,0 +1,37 @@
+    td{
+      border-collapse: collapse;
+      text-align: left;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+    
+    .tabela{
+        border-collapse: collapse;
+    }
+    
+    
+    .tbody1{
+      background-color: rgba(234, 234, 234,1);
+      cursor: pointer;
+      height
+    }
+    
+    .tbody2{
+      background-color: white;
+    }
+    
+    tbody:hover{
+      opacity: 0.8;
+    }
+    
+    th{
+      background-color: rgba(227, 12, 85, 1);
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      border-collapse: collapse;
+      border: 1px solid black;
+      width: 150px;
+    }
+    
+  
