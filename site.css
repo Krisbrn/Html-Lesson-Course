@@ -1,0 +1,316 @@
+.primeiradiv{
+  background-color: black;
+  height: 450px;
+  width: 1900px;
+  justify-content: center;
+  display: flex;
+  border: 2px solid;
+  border-color: #103460;
+}
+
+.primeiraimagem{
+  justify-content: center;
+
+}
+
+html{
+  background-color:#162441;
+  font-family:'Cinzel', serif;
+
+}
+
+.divisao{
+  background-color: none;
+  height: 100px;
+  width: 1900px;
+}
+
+.etapas{
+  font-family:'Cinzel', serif;
+  font-size: 30px;
+  filter: blur(0.5px);
+  margin-bottom: 0;
+}
+
+.texto{
+  margin-top: 0;
+  font-size: 24px;
+  filter: blur(0.5px);
+  color: white;
+}
+
+.intro{
+  color: black;
+}
+
+.divetapas{
+  background-color: none;
+  width: 240px;
+  border-radius: 34px;
+  justify-content: center;
+  display: block;
+
+}
+
+button{
+  font-family: 'Cinzel', serif;
+  font-family:'Cinzel', serif;
+  font-size: 30px;
+  filter: blur(0.5px);
+  margin-bottom: 0;
+  border-radius: 30px;
+  border: solid;
+  border-color: #162441;
+  border-width: 10px;
+}
+
+li{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.divfora {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 1550vh; 
+  background-color: none;
+
+
+}
+
+.divdentro {
+  width: 1400px; 
+  height: 14140px; 
+  background-color: #1a1e23; 
+  flex-direction: column;
+  display: flex;
+  position: relative;
+
+}
+
+.divtop{
+  background-color: #000000;
+  height: 30px;
+  width: 1400px;
+  justify-content: center;
+  display: flex;
+}
+
+.divbottom {
+  position: absolute;
+  bottom: 0; 
+  background-color: black;
+  height: 30px;
+  width: 1400px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.bossesname1{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #ffffff;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+
+}
+
+.bossesname2{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #ffffff;
+  font-size: 50px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.TheFalseKnight{
+  height: 600px;
+  width: 650px;
+}
+
+.GruzMother{
+  width: 450px;
+
+}
+
+.TheHornetProtector{
+  width: 700px;
+  height: 500px;
+}
+
+.TheMassiveMossCharger{
+  width: 770px;
+}
+
+.TheSoulWarrior{
+  width: 500px;
+}
+
+.TheSoulMaster{
+  width: 500px;
+  height: 500px;
+}
+
+.TheDungDefender{
+  width: 500px;
+  height: 500px;
+}
+
+.TheBrokenVessel{
+  width: 400px;
+  height: 400px;
+}
+
+.TheCrystalGuardian{
+  width: 500px;
+  height: 500px;
+}
+
+.HornetSentinel{
+  width: 500px;
+  height: 500px;
+}
+
+.divbosses{
+  background-color: none;
+  border: white 2px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.bossesguide{
+  display: flex;
+  background-color: none;
+  margin-top: 5px;
+
+}
+
+.tutorial1{
+  font-size: 15px;
+  color: #777389;
+}
+
+.tutorial2{
+  font-size: 15px;
+  color: #cdb8c8;
+}
+
+.tutorial3{
+  color: #774049;
+  font-size: 15px;
+}
+
+.tutorial4{
+  color: #1d453e;
+  font-size: 15px;;
+}
+
+.tutorial5{
+  color: #fffafb;
+  font-size: 15px;
+}
+
+.tutorial6{
+  color: #feaf74;
+  font-size: 15px;
+}
+
+.tutorial7{
+  color:#e2d2d7;
+  font-size: 15px;
+}
+
+.tutorial8{
+  color: #bf7a81;
+  font-size: 15px;
+}
+
+.tutorial9{
+  color: #f8794b;
+  font-size: 15px;
+}
+
+.tutorial10{
+  color: #b97dbb;
+  font-size: 15px;
+}
+
+.tutorial11{
+  color: #ffdd97;
+  font-size: 15px;
+}
+
+.tutorial12{
+  color: #b07fa0;
+  font-size: 15px;
+
+}
+
+.tutorial13{
+  color: #1f4554;
+  font-size: 15px
+}
+
+.tutorial14{
+  color: white;
+  font-size: 15px;
+}
+
+.tutorial15{
+  color: #79414b;
+  font-size: 15px;
+}
+
+.tutorial16{
+  color: #385c6b;
+  font-size: 15px;
+}
+
+.tutorial17{
+  color: #878593;
+  font-size: 15px;
+}
+
+.tutorial18{
+  color: #e78240;
+  font-size: 15px;
+}
+
+.tutorial19{
+  color: #f9fcfe;
+  font-size: 15px;
+}
+
+.tutorial20{
+  color: #684e54;
+  font-size: 15px;
+}
+
+.tutorial21{
+  color: #8f806f;
+  font-size: 15px;
+}
+
+.tutorial22{
+  color: #f18247;
+  font-size: 15px;
+}
+
+.tutorial23{
+  color: #fffffd;
+  font-size: 15px;
+}
+
+b{
+  font-size: 20px;
+}
+
