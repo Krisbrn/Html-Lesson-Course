@@ -1,0 +1,117 @@
+.classa{
+background-color: white;
+height: 1293px;
+width: 2000px;
+display: flex;
+border: 2px solid;
+border-color: black;
+}
+
+.classab{
+  background-color: rgba(227, 12, 85, 1);
+  height: 1290px;
+  width: 452px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.classc{
+  background-color: white;
+  height: 100px;
+  width: 1900px;
+}
+
+
+.hud{
+  background-color: rgba(227, 12, 85, 1);
+  color: white;
+  font-weight: bold;
+  font-family: "Brush Script MT", cursive;
+}
+
+.step1{
+  font-weight: bold;
+}
+
+
+.tabela, th, td{
+  border-collapse: collapse;
+  padding: 24px;
+  text-align: left;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
+.tbody1{
+  background-color: rgba(234, 234, 234,1);
+  cursor: pointer;
+}
+
+.tbody2{
+  background-color: white;
+}
+
+tbody:hover{
+  opacity: 0.8;
+}
+
+th{
+  background-color: rgba(227, 12, 85, 1);
+  color: white;
+  font-weight: bold;
+}
+
+.imagem{
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(160 160 160);
+}
+
+b{
+  border: 1px solid black;
+  margin: 6px;
+}
+
+.group{
+  margin: 6px;
+
+}
+
+.classad{
+  background-color: white;
+  height: 1294px;
+  width: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.classe{
+  background-color: white;
+  height: 1294px;
+  width: 500px;
+  display: inline-block;
+  
+}
+
+.classf{
+  background-color: green;
+  height: 1294px;
+  width: 500px;
+  display: inline-block;
+
+}
+
+.classg{
+  background-color: brown;
+  height: 1294px;
+  width: 500px;
+  display: inline-block;
+}
+
+html{
+  background-color: rgba(253,252,253,1);
+}
