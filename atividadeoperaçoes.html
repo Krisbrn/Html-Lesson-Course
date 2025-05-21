@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<label>Valor 1</label>
+    <input id="valor1"> <br><br>
+<label>Valor 2</label>
+    <input id="valor2"> <br><br>
+            <button onclick="soma()">SOMA</button>
+            <br>
+            <label>RESULTADO:</label>
+            <span id="resultado1">0</span>
+            <br><br>
+
+    <script>
+            function soma(){
+                let n1 = parseInt (document.getElementById("valor1").value);
+                let n2 = parseInt (document.getElementById("valor2").value);
+                let resultadosoma = n1 + n2;
+                document.getElementById("resultado1").innerText = resultadosoma;
+            }
+    </script>
+
+    <br><br><br>
+
+        <label>Valor 1</label>
+            <input id="valor3"> <br> <br>
+        <label> Valor 2</label>
+            <input id="valor4"> <br> <br>
+                    <button onclick="multi()">MULTIPLICAÇÃO</button>
+                        <br>
+        <label>RESULTADO:</label>
+                                <span id="resultado2">0</span>
+                    <br><br>
+
+<script>
+    function multi(){
+        let n1 = parseInt (document.getElementById("valor3").value);
+        let n2 = parseInt (document.getElementById("valor4").value);
+        let resultadomulti = n1 * n2;
+        document.getElementById("resultado2").innerText = resultadomulti;
+    }
+</script>
+
+    <br><br><br>
+
+            <label>Valor 1</label>
+            <input id="valor5"> <br> <br>
+        <label> Valor 2</label>
+            <input id="valor6"> <br> <br>
+                    <button onclick="div()">DIVISÃO</button>
+                        <br>
+        <label>RESULTADO:</label>
+                                <span id="resultado3">0</span>
+                    <br><br>
+
+<script>
+    function div(){
+        let n1 = parseInt (document.getElementById("valor5").value);
+        let n2 = parseInt (document.getElementById("valor6").value);
+        let resultadodiv = n1/n2;
+        document.getElementById("resultado3").innerText = resultadodiv;
+    }
+</script>
+    <br><br><br>
+
+            <label>Valor 1</label>
+            <input id="valor7"> <br> <br>
+        <label> Valor 2</label>
+            <input id="valor8"> <br> <br>
+                    <button onclick="sub()">SUBTRAÇÃO</button>
+                        <br>
+        <label>RESULTADO:</label>
+                                <span id="resultado4">0</span>
+                    <br><br>
+
+<script>
+    function sub(){
+        let n1 = parseInt (document.getElementById("valor7").value);
+        let n2 = parseInt (document.getElementById("valor8").value);
+        let resultadosub = n1 - n2;
+        document.getElementById("resultado4").innerText = resultadosub;
+    }
+</script>
+    <br><br><br>
+
+
+
+
+
+</body>
+</html>
